@@ -105,21 +105,17 @@ hr {
     width: auto;
 }
 div.charachters {
-    width: 1170px;
 }
 
 p.charachters {
     font-size: 20px;
     margin-bottom: 25px;
     word-wrap: break-word;
-    display: inline-block;
 }
 
 img.charachters {
     height: 490px;
     width: 350px;
-    display: inline-block;
-    vertical-align: top;
     margin: 20px 30px 0 0;
 }
 
