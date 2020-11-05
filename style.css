@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 10px 0;
+    justify-content: center; /* выравнивание по ширине */
+    display: flex;
+    top: 0;
+}
+
+.header-div {
+    width: 1170px;
+    justify-content: space-between; 
+    align-items: center; /* выравнивание по высоте */
+    display: flex;
+}
+
+img {
+    width: 200px;
+}
+
+.a-button {
+    color: #444444;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 300;
+    margin-left: 40px;
+    transition: 250ms;
+    border-bottom: 1px solid transparent;
+}
+
+.a-button:hover {
+    border-color: black;
+}
+
+.banner_img {
+    background-image: url(img/banner_background.png);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 990px;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.logo {
+    position: relative;
+    width: auto;
+    transform: translateX(230px);
+}
+
+.read_next {
+    border: 5px solid white;
+    color: white;
+    font-size: 30px;
+    transform: translateX(-355px);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 25px 80px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 500;   
+    /* width: 100vw; */
+    transition:  .5s ease;
+}
+
+.read_next:hover {
+    background: white;
+    color: black;
+    border: 5px solid black;    
+}
+
+h2 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+}
+
+hr {
+    width: 150px; 
+    border-width: 5px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.p_about {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img_ikk {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    height: 550px;
+    width: auto;
+}
+div.charachters {
+    width: 1170px;
+}
+
+p.charachters {
+    font-size: 20px;
+    margin-bottom: 25px;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+img.charachters {
+    height: 490px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 30px 0 0;
+}
+
+.footer-div {
+    color: white;
+    width: 1170px;
+    justify-content: space-between; 
+    align-items: center; /* выравнивание по высоте */
+    display: flex;
+    padding: 30px 0;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #333333;
+    width: 100%;
+    padding: 10px 0;
+    justify-content: center; /* выравнивание по ширине */
+    display: flex;
+    bottom: 0;
+    position: relative;
+}
